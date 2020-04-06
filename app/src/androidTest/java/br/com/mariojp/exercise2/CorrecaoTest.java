@@ -55,7 +55,7 @@ public class CorrecaoTest {
         onView(withId(R.id.btnTrocar))
                 .perform(click());
 
-        onView(withId(R.id.editText))
+        onView(withId(R.id.editTextUserName))
                 .check(matches(withText("")));
 
 
@@ -71,10 +71,10 @@ public class CorrecaoTest {
         onView(withId(R.id.btnTrocar))
                 .perform(click());
 
-        onView(withId(R.id.editText))
+        onView(withId(R.id.editTextUserName))
                 .perform(typeText("Sicrano"));
 
-        onView(withId(R.id.editText)).perform(ViewActions.closeSoftKeyboard());
+        onView(withId(R.id.editTextUserName)).perform(ViewActions.closeSoftKeyboard());
 
 
         onView(withId(R.id.btnConfirmar))
@@ -89,7 +89,7 @@ public class CorrecaoTest {
         onView(withId(R.id.btnTrocar))
                 .perform(click());
 
-        onView(withId(R.id.editText))
+        onView(withId(R.id.editTextUserName))
                 .perform(typeText("Sicrano"));
 
         onView(withId(R.id.btnCancelar))
@@ -104,10 +104,10 @@ public class CorrecaoTest {
         onView(withId(R.id.btnTrocar))
                 .perform(click());
 
-        onView(withId(R.id.editText))
+        onView(withId(R.id.editTextUserName))
                 .perform(typeText("Sicrano"));
 
-        onView(withId(R.id.editText)).perform(ViewActions.closeSoftKeyboard());
+        onView(withId(R.id.editTextUserName)).perform(ViewActions.closeSoftKeyboard());
 
 
         Espresso.pressBack();
@@ -121,7 +121,7 @@ public class CorrecaoTest {
         onView(withId(R.id.btnTrocar))
                 .perform(click());
 
-        onView(withId(R.id.editText))
+        onView(withId(R.id.editTextUserName))
                 .perform(typeText("Beltrano"));
 
         onView(withId(R.id.btnConfirmar))
@@ -130,7 +130,7 @@ public class CorrecaoTest {
         onView(withId(R.id.btnTrocar))
                 .perform(click());
 
-        onView(withId(R.id.editText))
+        onView(withId(R.id.editTextUserName))
                 .check(matches(withText("Beltrano")));
     }
 
@@ -139,7 +139,7 @@ public class CorrecaoTest {
         onView(withId(R.id.btnTrocar))
                 .perform(click());
 
-        onView(withId(R.id.editText))
+        onView(withId(R.id.editTextUserName))
                 .perform(typeText("Beltrano"));
 
         onView(withId(R.id.btnConfirmar))
@@ -148,7 +148,7 @@ public class CorrecaoTest {
         onView(withId(R.id.btnTrocar))
                 .perform(click());
 
-        onView(withId(R.id.editText))
+        onView(withId(R.id.editTextUserName))
                 .perform(clearText());
 
         onView(withId(R.id.btnConfirmar))
@@ -163,10 +163,10 @@ public class CorrecaoTest {
         onView(withId(R.id.btnTrocar))
                 .perform(click());
 
-        onView(withId(R.id.editText))
+        onView(withId(R.id.editTextUserName))
                 .perform(typeText("Beltrano"));
 
-        onView(withId(R.id.editText)).perform(ViewActions.closeSoftKeyboard());
+        onView(withId(R.id.editTextUserName)).perform(ViewActions.closeSoftKeyboard());
 
 
         onView(withId(R.id.btnConfirmar))
@@ -183,10 +183,10 @@ public class CorrecaoTest {
         onView(withId(R.id.btnTrocar))
                 .perform(click());
 
-        onView(withId(R.id.editText))
+        onView(withId(R.id.editTextUserName))
                 .perform(typeText("Beltrano"));
 
-        onView(withId(R.id.editText)).perform(ViewActions.closeSoftKeyboard());
+        onView(withId(R.id.editTextUserName)).perform(ViewActions.closeSoftKeyboard());
 
 
         onView(withId(R.id.btnConfirmar))
@@ -197,7 +197,7 @@ public class CorrecaoTest {
         onView(withId(R.id.btnTrocar))
                 .perform(click());
 
-        onView(withId(R.id.editText))
+        onView(withId(R.id.editTextUserName))
                 .check(matches(withText("Beltrano")));
     }
 
